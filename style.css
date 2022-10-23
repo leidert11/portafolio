@@ -1,0 +1,182 @@
+.banner{
+  background: url(https://coex.com.co/footer/coexGroup.svg);
+/*   background: url(https://s1.1zoom.me/big7/527/Houses_Skyscrapers_USA_Empire_State_Building_New_576708_1920x1080.jpg); */
+  color: white;
+  height: 35vh;
+  width: 170vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.foto{
+background-image: url(./images/foto1.jpeg) ;
+background-size: cover;
+background-position: center;
+  height: 40vh;
+  width: 35vh;
+  float: right;
+  text-decoration-line: none;
+}
+.contenedor{
+background: url(https://wallpaperaccess.com/full/2641092.gif) no-repeat center center fixed;
+background-size: cover;
+background-position: center;
+color: rgb(201, 193, 193);
+text-shadow: 2px 3px 3px rgb(3, 3, 3);
+font-weight: 700;
+font-size: 20px;
+}
+.imgc{
+height: 20vh;
+width: 21vh;
+background-size: cover;
+background-position: center;
+}
+.imgc:hover{
+      cursor: pointer;
+      animation-name: cambiarTamaño;
+      animation-duration: .8s;
+      height: 27vh;
+      width: 24vh;
+  
+}
+ @keyframes cambiarTamaño{
+  from{
+    height: 20vh;
+    width: 21vh;
+  }
+  to{
+    height: 26vh;
+    width: 25vh;
+  }
+
+} 
+
+
+
+.sobre_mi{
+width: 90vh;
+height: 30vh;
+}
+#images{
+align-content: space-around;
+width: 25vh;
+height: 25vh;
+}
+#images_j{
+  height: 26vh;
+  width: 20vh;
+  }
+
+a{
+font-size: 22px;
+color: rgb(221, 218, 214);
+font-weight: 900;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+li a:hover{
+  color: rgb(0, 173, 241);
+}
+h2 a{
+font-size: 22px;
+color: rgb(221, 217, 213);
+font-weight: 900;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+#icon{
+  height: 5vh;
+  width: 5.2vh;
+}
+p a{
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+}
+.accordion_item{
+  width: 360px;
+  padding: 0;
+  list-style: none;
+  background-color: rgba(15, 13, 13, 0.796);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  position: absolute;
+}
+.accordion_name{
+  padding: 1rem;
+  cursor: pointer;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion_content{
+  overflow: hidden;
+  padding: 0 2rem;
+  line-height: 2;
+ height: 0;
+ transition: .3s height;
+}
+.accordion_content::before, .accordion_content::after{
+  content: "";
+  display: block;
+  height: 20px;
+  background-color: transparent;
+}
+
+
+.accordion_item_1{
+  width: 360px;
+  padding: 0;
+  list-style: none;
+  background-color: rgba(15, 13, 13, 0.796);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  position: absolute;
+}
+.accordion_name_1{
+  padding: 1rem;
+  cursor: pointer;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion_content_1{
+  overflow: hidden;
+  padding: 0 2rem;
+  line-height: 2;
+ height: 0;
+ transition: .3s height;
+}
+.accordion_content_1::before, .accordion_content_1::after{
+  content: "";
+  display: block;
+  height: 20px;
+  background-color: transparent;
+}
+.tercero{
+  padding-top: 25rem;
+}
+#items:hover{
+border: 1px solid black;
+background-color: rgb(0, 0, 0);
+color: white;
+transition: .8s;
+margin: 4px;
+border-radius: 10px;
+}
+#img_item:hover{
+  transition: .8s;
+  width: 19rem;
+}
